@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.roulette {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.roulette__title {
+  text-decoration: underline;
+}
+
+.roulette__picture {
+  max-width: 100%;
+  height: auto;
+}
